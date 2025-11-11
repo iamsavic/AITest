@@ -1,14 +1,23 @@
 {
-  "name": "my-new-node-app",
+  "name": "playstation-scraper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Web scraper za izvlačenje cena igrica sa Sony PlayStation Store",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "scraper",
+    "playstation",
+    "games",
+    "prices"
+  ],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "puppeteer": "^24.29.1"
+  }
 }
